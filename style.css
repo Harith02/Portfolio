@@ -103,7 +103,7 @@ nav ul.nav-links li a:hover {
 
 section.section {
   background: var(--section-bg);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 8px;
   margin-top: 2rem;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -436,14 +436,12 @@ section.reveal.visible {
   display: flex;
   align-items: center;
   background-color: var(--bg-color, #f9f9f9);
-  padding: 0.5rem 0.75rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  font-size: 0.9rem;
   transition: background 0.2s ease;
   width: 160px;         
   height: 48px;         
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .tool:hover {
@@ -459,6 +457,7 @@ section.reveal.visible {
 
 .tool span {
   color: var(--text-color, #333);
+  font-size: 0.9rem;
   font-weight: 500;
   white-space: nowrap;
 }
