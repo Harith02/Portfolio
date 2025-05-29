@@ -307,7 +307,6 @@ section.reveal.visible {
 
 .project-card:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
 .project-content {
@@ -360,6 +359,22 @@ section.reveal.visible {
 
 .project-tech-logos img:hover {
   transform: scale(1.1);
+}
+
+.more-project {
+  background: var(--blue);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.more-project:hover {
+  background: var(--section-bg);
+  color: var(--text-color);
 }
 
 /* Timeline container */
@@ -570,6 +585,11 @@ footer {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+}
+
+.chatbot-section .features {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .project-gallery {
