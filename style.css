@@ -341,6 +341,27 @@ section.reveal.visible {
   color: var(--link-hover);
 }
 
+.project-link-page {
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.project-link-page a{
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.project-link-page a svg{
+  width: 30px;
+}
+
+.project-link-page a:hover{
+  color: var(--link-hover);
+}
+
 /* Logos */
 .project-tech-logos {
   display: flex;
@@ -608,6 +629,7 @@ footer {
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   transition: transform 0.2s ease;
+  border: var(--blue) 2px solid;
 }
 
 /* Responsive styles */
