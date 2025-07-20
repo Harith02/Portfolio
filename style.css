@@ -123,6 +123,25 @@ section.reveal.visible {
   transform: translateY(0);
 }
 
+.back-button {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+  color: white;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background: var(--section-bg);
+  color: var(--text-color);
+}
 
 /* ========== Floating Character Button ========== */
 .character-button {
