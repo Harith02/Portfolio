@@ -123,14 +123,17 @@ section.reveal.visible {
   transform: translateY(0);
 }
 
+section.reveal.visible.projects-section{
+  margin-top: 0px;
+}
+
 .back-button {
-  display: block;
-  margin: 0 auto;
+  margin-left: 2rem;
+  padding: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--blue);
-  color: white;
-  padding: 10px 20px;
+  color: var(--blue);
   width: fit-content;
   border-radius: 5px;
   text-decoration: none;
@@ -139,7 +142,6 @@ section.reveal.visible {
 }
 
 .back-button:hover {
-  background: var(--section-bg);
   color: var(--text-color);
 }
 
