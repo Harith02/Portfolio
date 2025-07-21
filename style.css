@@ -128,8 +128,7 @@ section.reveal.visible.projects-section{
 }
 
 .back-button {
-  margin-left: 2rem;
-  padding: 10px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
